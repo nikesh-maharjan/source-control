@@ -16,7 +16,7 @@ class ViewController: NSViewController {
         // Do any additional setup after loading the view.
     }
 
-    let x = "22"
+    let x = "2"
     override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.
