@@ -22,8 +22,6 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
-
-    let x = "11"
     
     //Do any additional setup after loading the view
     // comment
