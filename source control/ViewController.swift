@@ -22,6 +22,8 @@ class ViewController: NSViewController {
         }
     }
 
+    let x = "11"
+    
     //Do any additional setup after loading the view
     // comment
     //comment
