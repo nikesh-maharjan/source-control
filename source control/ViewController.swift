@@ -26,7 +26,7 @@ class ViewController: NSViewController {
     // comment
     //comment
     
-    
+    let example = "example"
     
     
 
