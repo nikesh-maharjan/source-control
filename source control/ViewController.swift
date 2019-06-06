@@ -9,13 +9,18 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
+    @IBOutlet weak var Label: NSTextField!
+    @IBOutlet weak var textField: NSTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func buttonWasPressed(_ sender: Any) {
+        Label.stringValue = "Hello \(textField.stringValue)!" 
+    }
     let x = "2"
     override var representedObject: Any? {
         didSet {
